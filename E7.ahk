@@ -17,7 +17,7 @@ IfWinNotExist, %GameTitle%
 	Sleep 800
 	
 	SetControlDelay -1
-	ControlClick, x818 y300, ahk_exe client.exe ;Change this to wherever your E7 is on the library list.
+	ControlClick, x818 y300, ahk_exe client.exe ;Change the y-coordinate to wherever your E7 is on the library list.
 	Sleep 500
 	WinMove, ahk_exe client.exe, , , , %w%, %h%
 	
